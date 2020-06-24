@@ -1,5 +1,5 @@
 # NodeJS Template Project
-This repository contains a template for nodeJS projects using TypeScript. It also has some dependencies as Express and dotEnv.
+*This repository contains a template for nodeJS projects using TypeScript. It also has some dependencies as Express and dotEnv.*
 
 ## 🚀 Getting Started
 
@@ -17,6 +17,31 @@ Install tools
 brew install yarn
 brew install node
 ```
+
+#### Ubuntu
+Configuring repository
+
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+Install tools
+
+```
+sudo apt update
+sudo apt install yarn
+sudo apt install nodejs
+```
+
+#### Windows
+Install [Chocolatey](https://chocolatey.org/install)
+
+Install tools
+```
+choco install yarn
+choco install nodejs
+```
+
 
 ### 📥 Installing dependencies
 
