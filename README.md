@@ -62,7 +62,7 @@ yarn dev:server
 * [Node](https://nodejs.org/) - JavaScript runtime environment
 * [Yarn](https://yarnpkg.com/) - Package Manager
 * [Express](https://expressjs.com/) - Web framework used NodeJS
-* [TypeScript](https://www.typescriptlang.org/) - Typed Superset of JavaScrip - used as a development dependency
+* [TypeScript](https://www.typescriptlang.org/) - Typed Superset of JavaScript - used as a development dependency
 
 ## 🎖 Author
 * **Geraldo Braz** - *Initial work* - [@geraldobraz](https://github.com/geraldobraz)
