@@ -30,7 +30,8 @@
             {
                 "ts": "never"
             }
-        ]
+        ],
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }]
     },
     "settings": {
         "import/resolver": {
