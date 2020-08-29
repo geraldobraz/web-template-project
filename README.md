@@ -52,12 +52,12 @@ yarn
 ```
 
 ### 🏎 Running application
-Go to the backend folder and run the follow command to start the backend server
+Go to the backend folder and run the following command to start the backend server
 ```
 yarn dev:server
 ```
 
-Go to the frontend folder and run the follow command to start the web application
+Go to the frontend folder and run the following command to start the web application
 ```
 yarn dev:server
 ```
