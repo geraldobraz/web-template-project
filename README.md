@@ -1,5 +1,5 @@
-# NodeJS Template Project
-*This repository contains a template for nodeJS projects using TypeScript. It also has some dependencies as Express and dotEnv.*
+# Web Template Project
+*This repository contains a template for nodeJS, ReactJs and React Native projects using TypeScript.*
 
 ## 🚀 Getting Started
 
@@ -52,14 +52,22 @@ yarn
 ```
 
 ### 🏎 Running application
-
+Go to the backend folder and run the follow command to start the backend server
 ```
 yarn dev:server
 ```
 
+Go to the frontend folder and run the follow command to start the web application
+```
+yarn dev:server
+```
+
+
 ## 🛠 Built With
 
 * [Node](https://nodejs.org/) - JavaScript runtime environment
+* [ReactJs](https://reactjs.org/) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
+* [React Native](https://reactnative.dev/) - A framework for building native apps with React.
 * [Yarn](https://yarnpkg.com/) - Package Manager
 * [Express](https://expressjs.com/) - Web framework used NodeJS
 * [TypeScript](https://www.typescriptlang.org/) - Typed Superset of JavaScript - used as a development dependency
