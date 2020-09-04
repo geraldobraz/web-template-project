@@ -45,7 +45,7 @@ choco install nodejs
 
 ### 📥 Installing dependencies
 
-Inside de project's folder, run:
+Inside the project's folder, run:
 
 ```
 yarn
