@@ -11,7 +11,8 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   body, input, button {
-    font: 16px Roboto, sans-serif
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
   }
   #root {
     max-width: 960px;
