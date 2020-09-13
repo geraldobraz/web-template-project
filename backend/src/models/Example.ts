@@ -1,6 +1,6 @@
 class Example {
-
   name: string;
+
   description: string;
 
   /**
@@ -13,7 +13,6 @@ class Example {
     this.name = name;
     this.description = description;
   }
-
 }
 
 export default Example;

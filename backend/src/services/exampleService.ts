@@ -1,7 +1,6 @@
 import ExampleRepository from '../repositories/ExampleRepository';
 
 class ExampleService {
-
   private _exampleRepository: ExampleRepository;
 
   /**
@@ -13,7 +12,7 @@ class ExampleService {
     this._exampleRepository = exampleRepository;
   }
 
-  public getName() {
+  public getName(): string[] {
     return this._exampleRepository.getNames();
   }
 }
