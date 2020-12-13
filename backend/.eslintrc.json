@@ -23,18 +23,20 @@
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "error",
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-                "ts": "never"
-            }
-        ],
-        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
-        "@typescript-eslint/no-unused-vars": ["error", {
-          "argsIgnorePattern": "_"
-        }]
+      "prettier/prettier": "error",
+      "class-methods-use-this": "off",
+      "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+              "ts": "never"
+          }
+      ],
+      "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+      "@typescript-eslint/no-unused-vars": ["error", {
+        "argsIgnorePattern": "_"
+      }],
+      "no-useless-constructor": "off"
     },
     "settings": {
         "import/resolver": {
